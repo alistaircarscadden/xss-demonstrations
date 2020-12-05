@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+
+<body>
+    <h1>Hello,
+        <script>
+            var username = decodeURI(document.URL.substring(document.URL.indexOf("username=") + 9, document.URL.length));
+            document.write(username);
+        </script>!</h1>
+</body>
+
+</html>
